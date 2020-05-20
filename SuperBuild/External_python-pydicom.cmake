@@ -41,7 +41,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/43/62/ba7218b51ebc231863c321dedef54cf97fb29e33832e67db00951a998c50/pydicom-0.9.8.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-pydicom/pydicom-0.9.8.tar.gz"
     URL_MD5 "b4370f802f0faae7239c8bc9f8a51a18"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

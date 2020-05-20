@@ -33,7 +33,7 @@ ExternalProject_Execute(${proj} \"install\" \"${PYTHON_EXECUTABLE}\" setup.py in
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/source/a/async/async-0.6.1.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-async/async-0.6.1.tar.gz"
     URL_MD5 "6f0e2ced1fe85f8410b9bde11be08587"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

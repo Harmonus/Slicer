@@ -33,7 +33,7 @@ ExternalProject_Execute(${proj} \"install\" \"${PYTHON_EXECUTABLE}\" setup.py in
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "http://pypi.python.org/packages/source/g/gitdb/gitdb-0.5.4.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-gitdb/gitdb-0.5.4.tar.gz"
     URL_MD5 "25353bb8d3ea527ba443dd88cd4e8a1c"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

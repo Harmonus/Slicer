@@ -18,7 +18,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/source/P/PyGithub/PyGithub-1.23.0.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-PyGithub/PyGithub-1.23.0.tar.gz"
     URL_MD5 "58bbbf17358d7b61c32d8095a6f56011"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

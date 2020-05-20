@@ -18,7 +18,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/source/n/nose/nose-1.3.7.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-nose/nose-1.3.7.tar.gz"
     URL_MD5 "4d3ad0ff07b61373d2cefc89c5d0b20b"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

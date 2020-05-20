@@ -18,7 +18,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/source/c/chardet/chardet-2.2.1.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-chardet/chardet-2.2.1.tar.gz"
     URL_MD5 "4a758402eaefd0331bdedc7ecb6f452c"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1

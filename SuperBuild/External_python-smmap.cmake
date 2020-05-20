@@ -18,7 +18,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    URL "https://pypi.python.org/packages/source/s/smmap/smmap-0.8.2.tar.gz"
+    URL "https://github.com/Harmonus/SlicerBinaryDependencies/releases/download/python-smmap/smmap-0.8.2.tar.gz"
     URL_MD5 "f5426b7626ddcf5e447253fae0396b0c"
     SOURCE_DIR ${proj}
     BUILD_IN_SOURCE 1
