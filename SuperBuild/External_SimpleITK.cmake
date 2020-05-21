@@ -34,7 +34,7 @@ ExternalProject_Execute(${proj} \"install\" \"${PYTHON_EXECUTABLE}\" Packaging/s
 ")
 
   set(SimpleITK_REPOSITORY ${git_protocol}://github.com/Harmonus/SimpleITK.git)
-  set(SimpleITK_GIT_TAG 502f78076bc2fa9f9424f4d038b9a6737c9d9b6f ) # 0.10.0.dev199
+  set(SimpleITK_GIT_TAG 03dc42df74fa13445765c9ea10f5c42cd6d7a0cd ) # 0.10.0.dev199
 
   set(EP_SOURCE_DIR ${CMAKE_BINARY_DIR}/${proj})
   set(EP_BINARY_DIR ${CMAKE_BINARY_DIR}/${proj}-build)
